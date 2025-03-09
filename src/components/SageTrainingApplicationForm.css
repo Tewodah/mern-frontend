@@ -1,0 +1,81 @@
+.form-background {
+	background-color: rgba(139, 69, 19, 0.8);
+	/* Low opacity brown background color */
+	padding: 50px 0;
+}
+
+.form-container {
+	background: rgba(139, 69, 19, 0.1);
+	/* Low opacity brown background color */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 600px;
+	width: 90%;
+	/* Adjusted width for responsiveness */
+	margin: 20px auto;
+	color: black;
+	/* Change font color to black */
+}
+
+.form-container h4 {
+	color: black;
+	/* Change font color to black */
+	text-align: center;
+	/* Center the title */
+}
+
+.form-container .form-label {
+	color: black;
+	/* Change font color to black */
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea,
+.form-container button {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+	background-color: #fff5f5;
+}
+
+.form-container button {
+	background-color: #ffa600;
+	/* Black background color */
+	color: rgb(0, 0, 0);
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+	background-color: #333;
+	/* Darker black for hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	.form-container {
+		padding: 15px;
+	}
+
+	.form-container h4 {
+		font-size: 1.5rem;
+	}
+
+	.form-container input,
+	.form-container select,
+	.form-container textarea,
+	.form-container button {
+		padding: 8px;
+		margin: 8px 0;
+	}
+}
